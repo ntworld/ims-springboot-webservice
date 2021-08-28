@@ -1,10 +1,10 @@
-package com.kjk.imsspringbootwebservice;
+package com.kjk.ims.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ImsSpringbootWebserviceApplicationTests {
+class ImsApplicationTests {
 
 	@Test
 	void contextLoads() {
