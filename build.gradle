@@ -18,6 +18,12 @@ test {
 	useJUnitPlatform()
 }
 
+task print {
+	doLast {
+		println "깃 허브 푸시 완료..."
+	}
+}
+
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	implementation('org.springframework.boot:spring-boot-starter-mustache')
