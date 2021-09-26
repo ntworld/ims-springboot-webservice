@@ -1,6 +1,6 @@
-package com.kjk.ims.springboot;
+package com.j3dev.ims.springboot;
 
-import com.kjk.ims.springboot.web.HelloController;
+import com.j3dev.ims.springboot.web.HelloController;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

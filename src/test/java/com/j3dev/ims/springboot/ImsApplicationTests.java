@@ -1,4 +1,4 @@
-package com.kjk.ims.springboot;
+package com.j3dev.ims.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

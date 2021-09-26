@@ -1,4 +1,4 @@
-package com.kjk.ims.springboot.web;
+package com.j3dev.ims.springboot.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

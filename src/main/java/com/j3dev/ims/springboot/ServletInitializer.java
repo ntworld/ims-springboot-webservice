@@ -1,4 +1,4 @@
-package com.kjk.ims.springboot;
+package com.j3dev.ims.springboot;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
