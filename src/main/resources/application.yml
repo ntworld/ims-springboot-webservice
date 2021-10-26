@@ -1,0 +1,28 @@
+# spring message property
+---
+spring:
+  messages:
+    basename: messages/messages
+    encoding: UTF-8
+
+# server
+server:
+  tomcat:
+    uri-encoding: UTF-8
+
+# current profile
+---
+spring:
+  profiles:
+    active: local
+
+# local profile
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: "jdbc:mariadb://rocker211.asuscomm.com:42802/j3dev"
+    username: "root"
+    password: "j3dev1234!"
