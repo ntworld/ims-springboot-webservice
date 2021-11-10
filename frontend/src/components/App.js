@@ -11,7 +11,7 @@ function App() {
       .then(message => {
         setMessage(message + ' j3dev');
       });
-  }, [])
+  }, []);
 
   return (
     <div className="App">
