@@ -11,7 +11,7 @@ public class HelloController {
     // HTTP Method  GET 방식 API
     @GetMapping("/hello")
     public String hello() {
-        // 깃 푸시 테스트22 zzz
+        // 깃 푸시 테스트22 zzz dev0
         return "hello";
     }
 }
