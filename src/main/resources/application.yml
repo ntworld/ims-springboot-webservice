@@ -26,3 +26,11 @@ spring:
     url: "jdbc:mariadb://rocker211.asuscomm.com:42802/j3dev"
     username: "root"
     password: "j3dev1234!"
+  jpa:
+    open-in-view: false
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      format_sql: true
+
