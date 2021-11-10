@@ -27,10 +27,16 @@ spring:
     username: "root"
     password: "j3dev1234!"
   jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     open-in-view: false
     generate-ddl: false
     show-sql: true
-    hibernate:
-      ddl-auto: none
-      format_sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDB10Dialect
+        format_sql: true
+
 
