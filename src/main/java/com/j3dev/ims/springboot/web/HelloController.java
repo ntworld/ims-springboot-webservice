@@ -20,7 +20,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         // 깃 푸시 테스트22 zzz dev0
-        return "hello";
+        return "hi hello";
     }
 
     @GetMapping("/getUser")
